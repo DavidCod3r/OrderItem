@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj": {}
+    "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\Orderitem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj": {
+    "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\Orderitem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj",
-        "projectName": "OrderItem",
-        "projectPath": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj",
+        "projectUniqueName": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\Orderitem.csproj",
+        "projectName": "Orderitem",
+        "projectPath": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\Orderitem.csproj",
         "packagesPath": "C:\\Users\\me\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\obj\\",
         "projectStyle": "PackageReference",

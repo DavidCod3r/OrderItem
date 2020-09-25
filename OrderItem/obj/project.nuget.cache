@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6/xLIotkTK+uo1I3oC/4Z1aUUmdm29BVcGQ2r871tR1gNYZNSpb5QT5AznWp5ZAyw/LtFx4zToJGzN2XAK1Hgw==",
+  "dgSpecHash": "anuxE09cJ6u/gPwZ/kW5SG6cJb4dGPqIQ1aNFiggJNgzUHa3FS3dTf/l93ln0Sth2tCT4OoOpdtt43S7fX5O/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\OrderItem.csproj",
+  "projectFilePath": "C:\\Users\\me\\source\\repos\\OrderItem\\OrderItem\\Orderitem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

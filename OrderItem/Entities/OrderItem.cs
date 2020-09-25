@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OrderItem.Entities
+namespace Orderitem.Entities
 {
     class OrderItem
     {

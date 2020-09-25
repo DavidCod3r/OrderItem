@@ -1,10 +1,10 @@
-﻿using OrderItem.Entities.Enums;
+﻿using Orderitem.Entities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace OrderItem.Entities
+namespace Orderitem.Entities
 {
     class Order
     {
