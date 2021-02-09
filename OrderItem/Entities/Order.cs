@@ -8,11 +8,11 @@ namespace Orderitem.Entities
 {
     class Order
     {
-        public DateTime Moment { get; set; }
-        public OrderStatus Status { get; set; }
+        public DateTime Moment { get; private set; }
+        public OrderStatus Status { get; private set; }
 
-        public Client Client { get; set; }
-        public List<OrderItem> Items { get; set; } = new List<OrderItem>();
+        public Client Client { get; private set; }
+        public List<OrderItem> Items { get; private set; } = new List<OrderItem>();
 
         public Order(DateTime moment, OrderStatus status, Client client)
         {
@@ -42,18 +42,18 @@ namespace Orderitem.Entities
             return sum;
         }
 
-        public override string ToString()
+       public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Order moment: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
-            sb.AppendLine("Order status: " + Status);
-            sb.AppendLine("Client: " + Client);
-            sb.AppendLine("Order items:");
-            foreach (OrderItem item in Items)
+            sb.AppendLine($"Order moment: {Date.ToString("dd/MM/yyyy HH:mm:ss")}");
+            sb.AppendLine($"Order status: {Status}");
+            sb.AppendLine($"Client: {Client}]");
+            sb.AppendLine("Order items: ");
+            foreach(OrderItem item in Items)
             {
                 sb.AppendLine(item.ToString());
             }
-            sb.AppendLine("Total price: $" + Total().ToString("F2", CultureInfo.InvariantCulture));
+            sb.AppendLine($"Total price: {Total().ToString("F2", CultureInfo.InvariantCulture)}");
             return sb.ToString();
         }
 
